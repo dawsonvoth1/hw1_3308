@@ -1,2 +1,9 @@
 link to github repo - https://github.com/dawsonvoth1/hw1_3308
-link to github pages sit - https://dawsonvoth1.github.io/hw1_3308/mypage_bootstrap.html 
+link to github pages site - https://dawsonvoth1.github.io/hw1_3308/mypage_bootstrap.html 
+
+Added bootstrap elements:
+-a better looking add file button on form page
+-another carousel on the main page
+-a button link to mypage.html
+-the cards on the main page are a card group which i don't believe was required
+-a main picture logo on the top left that links to the main page
