@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About me</title>
+        <link href="my_style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <a class="navbar-brand" href="../mypage_bootstrap.html">
+                <img class="rounded-circle" src="../IMG_0012.jpeg" alt="" width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="../mypage_bootstrap.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="../project.html">Projects </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../form.html">Form </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../hw2/signup-modal/login.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../hw2/tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Flcikr Api Gallery</a>
+                    </li>
+                </ul>
+                <a class="form-inline my-2 my-lg-0" href="https://github.com/dawsonvoth1">
+                    <img class="rounded-circle" src="../Unknown.png" alt="" width="30" height="30">
+                </a>
+            </div>
+        </nav>
+        <br>
+        <form>
+            <div class="container row justify-content-start form-inline">
+                <label class="pl-3 pr-1" for="numOfPics">Number of Pictures: </label>
+                <select class="form-control" id="numOfPics">
+                <option>30</option>
+                <option>50</option>
+                <option>70</option>
+                </select>
+                <label class="pl-3 pr-1" for="tagInput">Tag Input:</label>
+                <input type="text" class="form-control" id="tagInput" placeholder="Tag">
+                <div class="pl-1">
+                    <input class="btn btn-secondary" type="button" id="submitBtn" value="Submit">
+                </div>
+            </div>
+        </form>
+        <br>
+        <div class="container justify-content-center" id="pic__a">
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
+
+<!-- <img class="d-block w-100" src="https://live.staticflickr.com/65535/50566951171_8d699e4f7d_s.jpg" alt="pic1"> -->
